@@ -3,8 +3,8 @@ terraform {
 
   required_providers {
     tls = {
-      source  = "hashicorp/tls"
-      version = ">= 2.0"
+      source  = "invidian/tls"
+      version = ">= 2.2.1"
     }
     local = {
       source  = "hashicorp/local"
